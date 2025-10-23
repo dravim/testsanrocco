@@ -20,12 +20,6 @@ h1 {
   font-size: 2em;
 }
 
-@media screen and (max-width: 1230px) {
-  h1 {
-    font-size: 3vw;
-  }
-}
-
 h3 {
   text-align: center;
   font-size: 1.5em;
@@ -439,4 +433,56 @@ footer {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5rem;
+    text-wrap: balance;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+  }
+  header {
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .cabecalho {
+    height: 80px;
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  nav {
+    font-weight: 300 !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 0.7em;
+  }
+
+  a:link {
+    padding: 2px 5px;
+  }
+
+  .site-body {
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .cinque-per-mille {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }
