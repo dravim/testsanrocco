@@ -1,0 +1,442 @@
+/*ELEMENTS*/
+
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  color: white;
+  width: 80%;
+  padding-left: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 1230px) {
+  h1 {
+    font-size: 3vw;
+  }
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 40px 0;
+}
+
+h4 {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 1.1em;
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: #011c3b;
+}
+
+p {
+  font-size: 0.7em;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #011c3b;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*CLASSES*/
+
+.main-title {
+  color: black;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+.cabecalho {
+  background-color: #034694;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  padding: 10px 10px;
+  font-weight: 900;
+  color: white;
+  background-color: #034694;
+}
+
+.site-body {
+  padding-top: 40px;
+  margin: auto;
+  width: 65%;
+  font-size: 30px;
+}
+
+.seconda {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.seconda h3 {
+  margin-bottom: 30px;
+}
+.seconda p {
+  margin-top: 0;
+}
+
+.paragrafo-home {
+  font-size: 1.2em;
+  line-height: 130%;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.files:link {
+  background-color: #011c3b;
+  padding: 10px;
+  margin: 13px;
+  width: 170px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.files:hover {
+  background-color: #034694;
+}
+
+.cookie-privacy:link {
+  font-size: 0.6em;
+}
+
+.cookie-privacy:hover {
+  text-decoration: underline;
+}
+
+.links-footer {
+  margin-bottom: 16px;
+}
+
+.bolder {
+  font-weight: bolder;
+  font-size: 90%;
+}
+
+.cookies .indent {
+  line-height: 130%;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.cookies {
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.istituzionale {
+  line-height: 130%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.associazione {
+  line-height: 130%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.contatti {
+  margin-top: 2%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.eventi {
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.main {
+  margin-bottom: 10%;
+}
+
+.privacy {
+  line-height: 130%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  text-align: justify;
+}
+
+.privacy .indent {
+  text-indent: 50px;
+}
+
+.dados {
+  line-height: 70%;
+}
+
+.lista {
+  text-indent: 10px;
+  line-height: 200%;
+  font-size: 0.7em;
+}
+
+.lista-servizi {
+  font-size: 0.7em;
+  list-style-position: inside;
+}
+
+.link-no-text:link {
+  color: black !important;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.link-no-text:hover {
+  background-color: white;
+}
+
+.email:link {
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.email:hover {
+  background-color: white;
+}
+
+.cinque-per-mille {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.cinque-per-mille p {
+  margin-left: 4%;
+  min-width: 300px;
+}
+
+.na-home {
+  line-height: 130%;
+  font-size: 1.1em;
+}
+
+#cinque-per1000 {
+  height: 100%;
+  margin-top: 5%;
+}
+
+.pcontatti {
+  margin-bottom: 4%;
+}
+
+.gmap {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.listas-associazione {
+  list-style: none;
+  list-style-position: inside;
+  line-height: 160%;
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+.description-evento {
+  font-size: 0.6em;
+  text-align: justify;
+}
+
+.info-data-eventi {
+  padding: 0.5%;
+  width: 350px;
+}
+
+.layout-evento {
+  display: flex;
+  flex-direction: row;
+  border-left: 6px solid #034694;
+  background-color: #e6edf4;
+  box-shadow: 10px 10px 5px gray;
+  margin: 45px;
+  padding: 25px;
+}
+
+.futuro {
+  background-color: #b1c7dd;
+}
+
+.foto-eventi {
+  height: 250px;
+  width: auto;
+  transition: transform 0.5s;
+  margin: 0.5%;
+}
+
+.foto-eventi:hover {
+  transform: scale(2.5);
+}
+
+/*.div-foto-eventi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  border: 1px solid
+}*/
+
+.div-foto-eventi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  margin: 1%;
+}
+
+/*IDS*/
+
+#link-contatti {
+  color: black !important;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+#link-contatti:hover {
+  background-color: white;
+}
+
+#link-cookies {
+  color: black !important;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+#link-cookies:hover {
+  background-color: white;
+}
+
+#link-privacy {
+  color: black !important;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+#link-privacy:hover {
+  background-color: white;
+}
+
+#parco-mezzi {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#logo-san-rocco {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+#grazie-cuore {
+  color: #034694;
+}
+
+#cinque-per1000 {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 5%;
+}
+
+#prenota-il-servizio:link {
+  color: white;
+  background-color: #011c3b;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+#prenota-il-servizio:hover {
+  color: white;
+  background-color: #034694;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 150px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 999; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
