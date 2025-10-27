@@ -575,6 +575,10 @@ footer {
     margin-top: 50px;
   }
 
+  .contatti h3 {
+    margin-top: 50px;
+  }
+
   .layout-evento {
     display: flex;
     flex-direction: column-reverse;
