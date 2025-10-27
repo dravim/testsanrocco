@@ -435,14 +435,15 @@ footer {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   h1 {
     font-size: 1.5rem;
     text-wrap: balance;
     text-align: center;
-    width: 200px;
-    margin: 10px;
+    width: 30%;
+    /*margin: 10px;*/
   }
+
   header {
     padding-left: 0;
     width: 100%;
@@ -452,8 +453,15 @@ footer {
   }
 
   .cabecalho {
-    height: 80px;
+    height: 60px;
     width: 100%;
+    padding: 10px 10px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
     padding: 10px 10px;
   }
 
@@ -465,6 +473,8 @@ footer {
     justify-content: space-around;
     align-content: center;
     font-size: 0.7em;
+    width: 70%;
+    margin-right: 5px;
   }
 
   a:link {
@@ -474,6 +484,14 @@ footer {
   .site-body {
     width: 100%;
     margin-bottom: 200px;
+  }
+
+  .main-title {
+    font-size: 100%;
+  }
+
+  h3 {
+    font-size: 80%;
   }
 
   footer {
