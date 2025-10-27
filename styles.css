@@ -220,6 +220,7 @@ footer {
 .lista-servizi {
   font-size: 0.7em;
   list-style-position: inside;
+  text-align: left;
 }
 
 .link-no-text:link {
@@ -452,17 +453,31 @@ footer {
     justify-content: space-evenly;
   }
 
+  .paragrafo-home p {
+    font-size: 1rem;
+    line-height: 120%;
+  }
+
+  .lista-servizi {
+    font-size: 1rem;
+    line-height: 130%;
+    text-align: left;
+  }
+
+  h3 {
+    margin: 10px 0;
+  }
+
+  #prenota-il-servizio:link {
+    font-size: 2rem;
+  }
+
   .cabecalho {
-    height: 60px;
+    height: 65px;
     width: 100%;
     padding: 10px 10px;
-    position: fixed;
+    margin: 0;
     display: flex;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 999;
-    padding: 10px 10px;
   }
 
   nav {
@@ -475,6 +490,7 @@ footer {
     font-size: 75%;
     width: 70%;
     margin-right: 5px;
+    margin-top: 5px;
   }
 
   a:link {
@@ -502,5 +518,104 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+
+  .na-home {
+    line-height: 130%;
+    font-size: 1.4rem;
+  }
+
+  .istituzionale h3 {
+    margin-top: 50px;
+  }
+
+  .istituzionale p {
+    font-size: 1rem;
+    line-height: 130%;
+  }
+
+  .links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .associazione {
+    margin-top: 50px;
+  }
+
+  .site-body p {
+    font-size: 1rem;
+    line-height: 130%;
+  }
+
+  .listas-associazione {
+    font-size: 1.1rem;
+    line-height: 150%;
+    /*text-align: left;*/
+    padding: 0;
+  }
+
+  #cuore-img-mezzo {
+    max-width: 100%;
+  }
+
+  .lista {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .cookies h3 {
+    margin-top: 50px;
+  }
+
+  .privacy h3 {
+    margin-top: 50px;
+  }
+
+  .layout-evento {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+
+  .foto-eventi {
+    width: 100%;
+  }
+
+  .div-foto-eventi {
+    width: 100%;
+    margin: 0;
+  }
+
+  .layout-evento {
+    margin: 30px 5px;
+  }
+
+  .info-data-eventi {
+    width: 100%;
+  }
+
+  .description-evento {
+    padding-right: 10px;
+  }
+
+  #foto-lion2,
+  #foto-lion3,
+  #motogiro-uno-foto2 {
+    display: none;
+  }
+
+  .foto-eventi:not(.no-hover):hover {
+    transform: scale(1);
+  }
+
+  .contatti img {
+    width: 100%;
+  }
+
+  .contatti iframe {
+    width: 100%;
   }
 }
