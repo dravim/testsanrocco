@@ -558,7 +558,7 @@ footer {
   }
 
   #cuore-img-mezzo {
-    max-width: 90%;
+    width: 90%;
     height: auto;
   }
 
@@ -621,3 +621,30 @@ footer {
   }
 }
 
+@media (orientation: landscape) {
+  .cabecalho {
+    position: static;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    position: static;
+    padding: 1px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .istituzionale h3 {
+    margin-top: 0;
+  }
+
+  .associazione h3 {
+    margin-top: 0;
+  }
+}
