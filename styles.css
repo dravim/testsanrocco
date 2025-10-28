@@ -517,10 +517,12 @@ footer {
   .dropdown-content a {
     float: none;
     color: white;
-    /*padding: 12px 16px;*/
+    padding: 12px 16px;
+    margin: 10px;
     text-decoration: none;
     display: block;
     text-align: center;
+    font-weight: 300;
   }
 
   .dropdown:hover .dropdown-content {
@@ -617,24 +619,27 @@ footer {
     margin-top: 50px;
   }
 
+  .eventi h3 {
+    margin-top: 50px;
+  }
+
   .layout-evento {
     display: flex;
     flex-direction: column-reverse;
     padding: 0;
+    margin: 30px 5px;
   }
 
   .foto-eventi {
     width: 100%;
+    height: auto;
+    margin: 0;
   }
 
   .div-foto-eventi {
     width: 100%;
     margin: 0;
     padding: 0;
-  }
-
-  .layout-evento {
-    margin: 30px 5px;
   }
 
   .info-data-eventi {
