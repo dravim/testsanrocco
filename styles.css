@@ -720,4 +720,8 @@ footer {
   .associazione h3 {
     margin-top: 0;
   }
+
+  .dropdown-content{
+    right: 25%;
 }
+
