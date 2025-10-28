@@ -562,6 +562,10 @@ footer {
     height: auto;
   }
 
+  #div-cuore-img-mezzo {
+    width: 100%;
+  }
+
   .lista {
     font-size: 1rem;
     line-height: 150%;
